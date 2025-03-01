@@ -58,7 +58,7 @@ body {
 }
 
 .contact-info .contact-list {
-  padding: 0 180px;
+  padding: 0 166px;
   display: flex;
   gap: 40px;
 }
@@ -160,7 +160,7 @@ body {
 }
 
 .team-heading {
-  padding: 0 490px;
+  padding: 0 483px;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -349,6 +349,14 @@ section ul li img {
 }
 
 .footer-logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 700;
+  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
