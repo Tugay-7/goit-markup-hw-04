@@ -1,0 +1,637 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;  
+}
+
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 700;
+  margin-right: 76px;
+}
+
+.studio-text {
+  color: #2e2f42;
+}
+
+.footer-studio-text {
+  color: #f4f4fd;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-style: normal;
+}
+
+.contact-info .contact-list {
+  padding: 0 180px;
+  display: flex;
+  gap: 40px;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.first-section {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.first-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+}
+
+.first-section .btn_submit_form {
+  background-color: #4D5AE5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.first-section .btn_submit_form:hover {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+.first-section .btn_submit_form:focus {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
+.second-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.section-heading {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.approach-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.approach-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.approach-list {
+  display: flex;
+  gap: 24px;
+}
+
+.approach-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.third-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-heading {
+  padding: 0 490px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-item {
+  background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.team-list {
+  justify-content: space-between;
+  display: flex;
+  gap: 24px;
+}
+
+.team-info {
+  padding: 32px 0;
+}
+
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-title {
+  text-align: center;
+}
+
+.portfolio-heading {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-item-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-main {
+  padding: 0 20px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  padding: 0 15px;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item .nav-link,
+.nav-item .home-link {
+  padding: 24px 0;
+}
+
+nav a {
+  font-weight: 700;
+}
+
+/* Main Content Styles */
+
+section {
+  margin-bottom: 2em;
+}
+
+btn_submit_form {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+btn_submit_form:hover {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
+btn_submit_form:focus {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
+/* Portfolio Section */
+section h2 {
+  margin-bottom: 1em;
+}
+
+section ul {
+  flex-wrap: wrap;
+}
+
+section ul li {
+  flex: 1 1 calc(33.333% - 1em);
+  text-align: center;
+}
+
+section ul li img {
+  max-width: 100%;
+  margin: 0 auto 1em;
+}
+
+.portfolio-item-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
+}
+
+.studio-text {
+  color: #2e2f42;
+}
+
+.footer-studio-text {
+  color: #ffffff;
+}
+
+/* Interactive Elements */
+a:hover,
+a:focus,
+btn_submit_form:hover,
+btn_submit_form:focus {
+  color: #0056b3;
+}
+
+/* B1: Global reset for h1...h6, p, and ul */
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* B2: Elements should not have margins that disrupt container layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* B3: Use margin for vertical spacing between adjacent elements */
+section + section {
+  margin-top: 2em;
+}
+
+/* B4: Use padding for spacing between content and its border */
+section {
+  padding: 2em 0;
+}
+
+/* B5: Adjust margins and paddings according to the layout */
+header, footer, section {
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/* B6: Create a common .container helper class */
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+/* B9: Apply .container class to main content wrappers */
+header .container,
+footer .container,
+section .container {
+  padding: 0 15px;
+}
+
+/* B10: Use Flexbox for necessary elements */
+header nav ul,
+.team-list,
+.portfolio-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* B11: Ensure all block elements match the design layout */
+header, footer, section {
+  width: 100%;
+}
+
+/* B12: Elements should not have fixed height */
+header, footer, section {
+  height: auto;
+}
+
+/* B13: Header should have a bottom border */
+header {
+  border-bottom: 1px solid #ccc;
+}
+
+/* B14: Sections should stack like a book without external margins */
+section {
+  margin: 0;
+}
+
+/* B15: Sections should have 120px top and bottom padding */
+.section {
+  padding: 120px 0;
+}
+
+/* B16: Portfolio cards should have a bottom border */
+.portfolio-item {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Set display: block for all img elements */
+img {
+  display: block;
+}
+
+/* First Section Styles */
+.first-section {
+  padding: 188px 0;
+}
+
+.first-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  max-width: 496px;
+}
+
+.btn-submit-form {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Second Section Styles */
+.second-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.approach-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  padding: 0;
+  list-style:none ;
+}
+
+.approach-item {
+  width: calc((100% - 72px) / 4);
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.approach-heading {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .approach-item {
+    flex-basis: calc((100% - 24px) / 2); /* Mobilde 2 sütun */
+  }
+}
+
+@media (max-width: 480px) {
+  .approach-item {
+    flex-basis: 100%; /* Küçük ekranlarda tam genişlik */
+  }
+}
+
+
+/* Third Section Styles */
+.third-section {
+  padding: 120px 0;
+}
+
+.team-heading {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.team-info {
+  padding: 32px 0;
+}
+
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-title {
+  text-align: center;
+}
+
+/* Fourth Section Styles */
+.fourth-section {
+  padding: 120px 0;
+}
+
+.portfolio-heading {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 72px) / 4);
+}
+
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.portfolio-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.portfolio-category {
+  text-align: center;
+}
+
+/* Set display: block for all img elements */
+img {
+  display: block;
+}
+
+/* Footer Styles */
+.footer-main {
+  padding: 100px 0;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-studio-text {
+  color: #ffffff;
+}
+
+.footer-description {
+  max-width: 264px;
+}
+
+/* Other existing styles... */
