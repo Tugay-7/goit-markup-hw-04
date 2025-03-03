@@ -190,16 +190,17 @@ body {
 .approach-item {
   width: calc((100% - 72px) / 4);
 }
+  
 
 .approach-item-container {
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99
-  border-radius: 4px
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  align-items: center;
   margin-bottom: 8px;
+  justify-content: center;
+  border: 1px solid #8e8f99
 }
 
 .approach-item-img {
