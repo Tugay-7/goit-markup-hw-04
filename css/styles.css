@@ -470,8 +470,8 @@ a {
   margin-right: 120px;
 }
 
-.footer-social-title {
-  margin-bottom: 16px;
+p {
+  margin: 0;
 }
 
 .footer-social-title {
@@ -481,4 +481,4 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
+ }
